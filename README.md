@@ -1,4 +1,11 @@
 # tallerssistemasoperativos
+
+
+## 996 bandit
+
+[bandit](bandit.txt)
+
+
 # BITACORA 2026
 ## CLASE 1  
 Ese di ael profesor explico la dinamica de trabajo y como nos iba acalificar las tareas
