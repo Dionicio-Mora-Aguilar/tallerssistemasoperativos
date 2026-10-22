@@ -1,16 +1,18 @@
-- [ ] Contraseña bandit 33
-- [ ] u4P2CyPOwPGLe94RdD9Uo2FxFwvnFswM
- 
+# Bitácora de OverTheWire Bandit
+
+
+## bandit 33
+
 - [ ] Ls
 - [ ] README.txt
 
-- [ ] Contraseña bandit 32
+## bandit 32
+
 - [ ] $0
 - [ ] cat /etc/bandit_pass/bandit33
 
-- [ ] u4P2CyPOwPGLe94RdD9Uo2FxFwvnFswM (contraseña bandit 33)
+## bandit 31
 
-- [ ] Contraseña bandit 31
 - [ ] git clone ssh://bandit31-git@bandit.labs.overthewire.org:2220/home/bandit31-git/repo repo_final
 - [ ] cd repo_final
 - [ ] echo "May I come in?" > key.txt
@@ -20,270 +22,231 @@
 - [ ] git commit -m "Submit key"
 
 
-- [ ] pWuj5jBQ6IgV0NXwiH6g1pXRF8S1YvbT (contraseña de bandit 32)
-
-
-- [ ] Contraseña bandit30
-
-- [ ] 82NkymblpGBYmIXG6ZQ8YldBYstHpfUf (bandit 31)
+## bandit 30
 
 - [ ] git clone ssh://bandit30-git@bandit.labs.overthewire.org:2220/home/bandit30-git/repo
-- [ ] (Ingrese la contraseña de Bandit 30: jq9Dfg2rXsfYsWMgFuKlXhphjdH7USgX)
+- [ ] (Ingrese la contraseña de Bandit 30)
 - [ ] cd repo
 - [ ] git tag
 - [ ] git show secret
 
-Contraseña bandit 29
+## bandit 29
 
-git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
+- [ ] git clone ssh://bandit29-git@bandit.labs.overthewire.org:2220/home/bandit29-git/repo
+- [ ] cd repo
+- [ ] git log --all -p
+- [ ] (contraseña bandit30)
 
-cd repo
-git log --all -p
 
-jq9Dfg2rXsfYsWMgFuKlXhphjdH7USgX (contraseña bandit30)
- 
+## bandit 28
 
-Contraseña bandit28
+- [ ] git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
+- [ ] cd repo
+- [ ] git log -p
 
-Em7eGtqaMySwNFjCpwzzHhLhospOcdt0c (contraseña de bandit29
 
-git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
+## bandit 27
 
-cd repo
-git log -p
+- [ ] Puse este comando en mi terminal posteriormente la contraseña de bandit 27
+- [ ] git clone -c core.sshCommand="ssh -p 2220 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
+- [ ] cd repo && cat README
 
 
+## bandit 26
 
+- [ ] ssh -i /tmp/llave26.key -p 2220 bandit26@bandit.labs.overthewire.org
+- [ ] :set shell=/bin/bash
+- [ ] :shell
+- [ ] cat /etc/bandit_pass/bandit26
+- [ ] bandit27-do cat /etc/bandit_pass/bandit27
 
 
-Contraseña bandit27
+## bandit 25
 
-Puse este comando en mi terminal posteriormente la contraseña de bandit 27
+- [ ] cat bandit26.sshkeynano /tmp/llave26.key
+- [ ] chmod 600 /tmp/llave26.key
+- [ ] ssh -i /tmp/llave26.key -p 2220 bandit26@bandit.labs.overthewire.org
+- [ ] :set shell=/bin/bash
+- [ ] :shell
+- [ ] cat /etc/bandit_pass/bandit26
 
-git clone -c core.sshCommand="ssh -p 2220 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
 
-cd repo && cat README
-y8Yd2ssKcpHpud7UvOSOxwamRMzIGIeQ (contraseña bandit 28)
+## bandit 24
 
+- [ ] (Contraseña bandit 25)
+- [ ] mkdir /tmp/mi_brute_24
+- [ ] cd /tmp/mi_brute_24
+- [ ] for i in {0000..9999}; do echo "hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv $i"; done > combinaciones.txt
+- [ ] cat combinaciones.txt | nc localhost 30002 >resultado.txt
+- [ ] grep -v "wrong" resultado.txt
 
+## bandit 23
 
-Contraseña bandit26
-jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ
-ssh -i /tmp/llave26.key -p 2220 bandit26@bandit.labs.overthewire.org
-V
-:set shell=/bin/bash
-:shell
-cat /etc/bandit_pass/bandit26
-./bandit27-do cat /etc/bandit_pass/bandit27
+- [ ] mkdir /tmp/mi_scrip_24
+- [ ] cd /tmp/mi_scrip_24
+- [ ] echo '$!/bin/bash' > scrip.sh
+- [ ] echo 'cat /etc/bandit_pass/bandit24 > /tmp/mi_script_24/clave.txt' >>script.sh
+- [ ] chmod 777 -R /tmp/mi_scrip_24
+- [ ] cp script.sh /var/spool/bandit24/foo/
+- [ ] echo '#!/bin/bash' > script.sh
+- [ ] echo 'cat /etc/bandit_pass/bandit24 > /tmp/mi_scrip_24/clave.txt' >> script.sh
+- [ ] chmod 777 -R /tmp/mi_scrip_24
+- [ ] cp script.sh /var/spool/bandit24/foo/
+- [ ] cat clave.txt ( espere un minuto)
 
-STJLJBRRphMxKB392CT4iOr5CbzPU9ER (contraseña bandit27)
 
+## bandit 22
 
+- [ ] cat /etc/cron.d/cronjob_bandit23
+- [ ] cat /usr/bin/cronjob_bandit23.sh
+- [ ] echo I am a user bandit23 | md5sum | cut -d ' ' -f 1
+- [ ] cat /tmp/$(echo I am user bandit23 | md5sum |cut -d ' ' -f 1)
 
-Contraseña bandit25
-jHdv2ELQhT22BkprMNDjybZDAkw1zeBJ (contraseña bandit26)
-cat bandit26.sshkeynano /tmp/llave26.key
-chmod 600 /tmp/llave26.key
-ssh -i /tmp/llave26.key -p 2220 bandit26@bandit.labs.overthewire.org
+## bandit 21
 
-:set shell=/bin/bash
-:shell
-cat /etc/bandit_pass/bandit26
+- [ ] cat /usr/bin/cronjob_bandit22.sh
+- [ ] ls -l /etc/cron.d/
+- [ ] cat /etc/cron.d/cronjob_bandit22
+- [ ] cat /etc/bandit_pass/bandit22 > /tmp/
+- [ ] cat /tmp/
 
+## Bandit 20
 
-Contraseña bandit 24
-SoHfqMOEqIX2IYKVciZxvgpR9a2Djx4P
-(Contraseña bandit 25)
-mkdir /tmp/mi_brute_24
-cd /tmp/mi_brute_24
-for i in {0000..9999}; do echo "hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv $i"; done > combinaciones.txt
+- [ ] Dos terminales
+- [ ] Terminal 1:
+- [ ] `echo "4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA" | nc -l -p 33333`
+- [ ] Terminal 2:
+- [ ] `./suconnect 33333`
 
-cat combinaciones.txt | nc localhost 30002 >resultado.txt
-grep -v "wrong" resultado.txt
+## Bandit 19
 
+- [ ] `ls -l`
+- [ ] `./bandit20-do`
+- [ ] `./bandit20-do cat /etc/bandit_pass/bandit20`
+- [ ] Contraseña de Bandit 20: privada
 
+## Bandit 18
 
+- [ ] `ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat README"`
 
-Contraseña bandit23
-hVQMk3lJNsmQ7VF3ubyrNNBom7BOgVXv (contraseña bandit 24) 
-mkdir /tmp/mi_scrip_24
-cd /tmp/mi_scrip_24
-echo '$!/bin/bash' > scrip.sh
-echo 'cat /etc/bandit_pass/bandit24 > /tmp/mi_script_24/clave.txt' >>script.sh
-chmod 777 -R /tmp/mi_scrip_24
-cp script.sh /var/spool/bandit24/foo/
-echo '#!/bin/bash' > script.sh
-echo 'cat /etc/bandit_pass/bandit24 > /tmp/mi_scrip_24/clave.txt' >> script.sh
-chmod 777 -R /tmp/mi_scrip_24
-cp script.sh /var/spool/bandit24/foo/
-cat clave.txt ( espere un minuto)
+## Bandit 17
 
+- [ ] `nmap -p 31000-32000 localhost`
+- [ ] `echo "kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V" | openssl s_client -connect localhost:31790 -ign_eof`
+- [ ] `nano /tmp/bandit17.key`
+- [ ] `cat /tmp/bandit17.key`
+- [ ] `chmod 600 /tmp/bandit17.key`
+- [ ] `ssh -i /tmp/bandit17.key bandit17@bandit.labs.overthewire.org -p 2220`
+- [ ] `diff passwords.old passwords.new`
 
-Contraseña bandit 22
-gKXDTAXnIz3OBxiPjRZ2uqutUlPZrBsw
-(Contraseña bandit 23)
-cat /etc/cron.d/cronjob_bandit23
-cat /usr/bin/cronjob_bandit23.sh
-echo I am a user bandit23 | md5sum | cut -d ' ' -f 1
-4702a5810c3edede4c74a70520b6c3bd
+## Bandit 16
 
-cat /tmp/$(echo I am user bandit23 | md5sum |cut -d ' ' -f 1)
+- [ ] Contraseña obtenida: `kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V`
+- [ ] Puertos revisados: del 31000 al 32000
+- [ ] `cat /etc/bandit_pass/bandit16`
 
-Contraseña bandit 21
-RYVux2rHEm9tiXHmLFzuR7Vhx6AZQMEz (contraseña bandit22)
-ls -l /etc/cron.d/
-cat /etc/cron.d/cronjob_bandit22
-cat /usr/bin/cronjob_bandit22.sh
-cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+## Bandit 15
 
-cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+- [ ] `cat /etc/bandit_pass/bandit15`
+- [ ] `openssl s_client -connect localhost:30001`
+- [ ] Pegar la contraseña de Bandit 15 para obtener la de Bandit 16.
 
-
-Contraseña 20
-bW9kBv5WC3P4yoDyf12LSdGuNz5ka6hY
-Dos terminales
-Terminal 1: echo "4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA" | nc -l -p 33333
-Terminal 2:  ./suconnect 33333
+## Bandit 14
 
+- [ ] `cat /etc/bandit_pass/bandit14`
+- [ ] Contraseña utilizada: `aaWecNkG4FhxJQxz07uiwzVP6bJiYS65`
+- [ ] `nc localhost 30000`
 
+## Bandit 13
 
-Contraseña Bandit 19
-KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
-Ls -l
-./bandit20-do
-./bandit20-do cat /etc/bandit_pass/bandit20
+- [ ] `ls -l sshkey.private`
+- [ ] `cat sshkey.private`
+- [ ] `-----BEGIN OPENSSH PRIVATE KEY-----`
+- [ ] `[contenido de la llave privada omitido]`
+- [ ] `-----END OPENSSH PRIVATE KEY-----`
+- [ ] `nano bandit14.key`
+- [ ] `chmod 600 bandit14.key`
+- [ ] `ssh -i bandit14.key bandit14@bandit.labs.overthewire.org -p 2220`
 
-Password bandit20: 4pIjcunZ0fK2vmp3IwfG8Vf7VhxD6pOA
+## Bandit 12
 
-Contraseña 18
-ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"
- Luego contraseña de bandit 18
-OQxXZjELndr90zuhOTDYBEomI0SZITXI
-
-Dara password de bandit19
-KpsOfPkcP7i1FlIExk2QEjyt6dw8dxZI
-
-
-Contraseña 17
-nmap -p 31000-32000 localhost
-echo “kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V” | openssl s_client -connect localhost:31790 -ign_eof
-nano /tmp/bandit17.key
-cat /tmp/bandit17.key
-chmod 600 /tmp/bandit17.key
-ssh -i /tmp/bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
- diff passwords.old passwords.new
-OQxXZjELndr90zuhOTDYBEomI0SZITXI contraseña bandit18
-
-
-Contraseña bandit16
-kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V para puertos del 31000 al 32000
-cat /etc/bandit_pass/bandit16
-
-Contraseña 15
-pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7 contra de entrada
-cat /etc/bandit_pass/bandit15
-openssl s_client -connect localhost:30001
-Pego la contra de bandit 15 y me da:
-kS0Hf0u5HiXFwKMKFqXvPdOTNGGa0X8V bandit 16
-
-
-Contraseña 14
-pbLYuZtTg4MgaqfJx8jbA9gKKGqM68A7 para bandit15
-cat /etc/bandit_pass/bandit14
-aaWecNkG4FhxJQxz07uiwzVP6bJiYS65 (se envia al Puerto 30000)
-nc localhost 30000
-
-
-Contraseña 13
-Ls -l sshkey.private
-Cat sshkey.private
------BEGIN OPENSSH PRIVATE KEY-----
------END OPENSSH PRIVATE KEY-----
-nano bandit14.key
-Chmod 600 bandit14.key
-ssh -ibandit14.key bandit14@bandit.labs.overthewire.org -p 2220
-
-Contraseña 12
-qQYQiHOBPR8zR61qxYqX45quvihF2uzk
-mv data8.bin data8.gz
-gzip -d data8.gz
-ls -la
-
-
-Contraseña 11
-cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za m'
-GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
-Exit
-
-Contraseña level 10
-Base64 -d data.txt
-pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
-Exit
-
-Contraseña level 9
-strings data.txt | grep =
-B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
-Exit
-
-Contraseña level 8
-sort data.txt | uniq -u
-EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
-Exit
-
-Contraseña level 7
-VR1ljMayciFxbnUokuQmJFw6QC9VKtub
-grep millionth data.txt
-Exit
-
-Contraseña nivel 6: 
-Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
-find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
-
-/var/lib/dpkg/info/bandit7.password
-
-cat /var/lib/dpkg/info/bandit7.passwor
-
-Bandit nivel 5: 
-pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
-Ls -la
-Cd inhere
-find . -type f -size 1033c
-./maybehere07/.file2
-
-cat ./maybehere07/.file2
-
-Bandit 4
-6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG
-Ls -la
-Cd inhere 
-File ./*
-Cat ./-file07
-Exit
-
-Bandit 3
-xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
-Ls
-Cd inhere
-Ls -la
-Ls -lb
-Cat …Hinding-From-You
-Exit
-
-Bandit 2
-7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
-Ls
---spaces in this filename--
-cat -- *
-Exit
-
-Bandit 1
-PK8fYLZg2hnHSz83plBL1iEPKdD3QToB1
-Ls
-cat ./-
-Exit
-
-Bandit 0
-Bandit0
-Ls 
-Cat readme
-Exit
+- [ ] `mv data8.bin data8.gz`
+- [ ] `gzip -d data8.gz`
+- [ ] `ls -la`
+
+## Bandit 11
+
+- [ ] `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+- [ ] Exit
+
+## Bandit 10
+
+- [ ] `base64 -d data.txt`
+- [ ] Exit
+
+## Bandit 9
+
+- [ ] `strings data.txt | grep =`
+- [ ] Exit
+
+## Bandit 8
+
+- [ ] `sort data.txt | uniq -u`
+- [ ] Exit
+
+## Bandit 7
+
+- [ ] `grep millionth data.txt`
+- [ ] Exit
+
+## Bandit 6
+
+- [ ] `find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null`
+- [ ] `/var/lib/dpkg/info/bandit7.password`
+- [ ] `cat /var/lib/dpkg/info/bandit7.password`
+
+## Bandit 5
+
+- [ ] `ls -la`
+- [ ] `cd inhere`
+- [ ] `find . -type f -size 1033c`
+- [ ] `./maybehere07/.file2`
+- [ ] `cat ./maybehere07/.file2`
+
+## Bandit 4
+
+- [ ] `ls -la`
+- [ ] `cd inhere`
+- [ ] `file ./*`
+- [ ] `cat ./-file07`
+- [ ] Exit
+
+## Bandit 3
+
+- [ ] `ls`
+- [ ] `cd inhere`
+- [ ] `ls -la`
+- [ ] `ls -lb`
+- [ ] `cat ...Hiding-From-You`
+- [ ] Exit
+
+## Bandit 2
+
+- [ ] `ls`
+- [ ] Nombre del archivo: `--spaces in this filename--`
+- [ ] `cat -- *`
+- [ ] Exit
+
+## Bandit 1
+
+- [ ] `ls`
+- [ ] `cat ./-`
+- [ ] Exit
+
+## Bandit 0
+
+- [ ] `Bandit0`
+- [ ] `ls`
+- [ ] `cat readme`
+- [ ] Exit
+```
