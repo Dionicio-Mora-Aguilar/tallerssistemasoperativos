@@ -30,9 +30,9 @@
 | ID | Tarea / Actividad | Estado | Fecha Límite | Evidencia / Captura |
 | :---: | :--- | :---: | :---: | :---: |
 | **#996** | [bandit](bandit.txt) | [ ] completada | 09/10/2026 | ![Bandit](bandit.png) |
-| **#993** | [menu bash](menu.sh)| [ ] Pendiente | 16/10/2026 |[![asciicast](https://asciinema.org/a/QFEdmbPck05pfofA)](https://asciinema.org/a/QFEdmbPck05pfofA)|
-| **#992** | [scripts] (scripts.sh) | [ ] Pendiente | 16/10/2026 | ![Scripts](scripts.jpg) |
+| **#993** | [menu bash](menu.sh)| [ ] Completado | 16/10/2026 |[![asciicast](https://asciinema.org/a/QFEdmbPck05pfofA)](https://asciinema.org/a/QFEdmbPck05pfofA)|
+| **#992** | [scripts] (scripts) | [ ] completado | 16/10/2026 | ![Scripts](scripts.jpg) |
 | **#990** | [investigacion] (investigacion unidad 1)  | [ ] completada | 16/10/2026 | ![Investigacion](investigacionunidad1.png) |
-| **#989** | Realizar el módulo Linux Fundamentals de TryHackMe | [ ] Pendiente | 23/10/2026 | ![TryHackMe Linux](tryhackme-linux.jpg) |
+| **#989** | Realizar el módulo Linux Fundamentals de TryHackMe | [ ] completado | 23/10/2026 | ![TryHackMe Linux](tryhackme-linux.jpg) |
 | **#988** | [Realizar el modulo de windows en tryhackme] | [ ] completada | 23/10/2026 | ![TryHackMe Windows](tryhackme-windows.jpg) |
 =======
