@@ -22,6 +22,7 @@ revisamos mas a fondo las tareas de discord
 ## CLASE 8
 revisamos ultimos detalles de la tarea
 
+<<<<<<< HEAD
 
 
 
@@ -59,3 +60,8 @@ revisamos ultimos detalles de la tarea
 | **#990** | Realizar investigación de la Unidad 1 | [ ] Pendiente | 16/10/2026 | ![Investigacion](ruta/a/tu/foto.png) |
 | **#989** | Realizar el módulo Linux Fundamentals de TryHackMe | [ ] Pendiente | 23/10/2026 | ![TryHackMe Linux](ruta/a/tu/foto.png) |
 | **#988** | Realizar el módulo Windows Fundamentals de TryHackMe | [ ] Pendiente | 23/10/2026 | ![TryHackMe Windows](ruta/a/tu/foto.png) |
+=======
+## Demostración de ejecución
+
+[![asciicast](https://asciinema.org/a/QFEdmbPck05pfofA)](https://asciinema.org/a/QFEdmbPck05pfofA)
+>>>>>>> 335bea3 (Incrustar video de asciinema en README)
